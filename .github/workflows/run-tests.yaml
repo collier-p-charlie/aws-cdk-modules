@@ -34,7 +34,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          uv sync --extra test --extra cli
+          uv sync --extra test
 
       - name: Run PyTest
         run: |
