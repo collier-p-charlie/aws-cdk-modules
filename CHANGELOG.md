@@ -12,6 +12,13 @@ That is, given a version number `MAJOR.MINOR.PATCH`, increment the:
 - **PATCH** version when you make backwards compatible bug fixes
 
 
+## [1.0.0.dev3](https://github.com/collier-p-charlie/python-repo-template/compare/1.0.0.dev2...1.0.0.dev3) 2025-08-19
+
+### Added
+- Adding the `NetworkModule` initial pieces.
+- Creating a **VPC** and subnets based off given **CIDR** input and **AZ**s.
+
+
 ## [1.0.0.dev2](https://github.com/collier-p-charlie/python-repo-template/compare/1.0.0.dev1...1.0.0.dev2) 2025-08-19
 
 ### Added

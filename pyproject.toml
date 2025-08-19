@@ -15,11 +15,12 @@ classifiers = [
     "Operating System :: OS Independent",
     "Framework :: Hatch"
 ]
-version = "1.0.0.dev2"  # https://packaging.python.org/en/latest/discussions/versioning/
+version = "1.0.0.dev3"  # https://packaging.python.org/en/latest/discussions/versioning/
 requires-python = ">=3.12"
 dependencies = [
     "aws-cdk-lib>=2.211.0",
     "constructs>=10.4.2",
+    "pydantic>=2.11.7",
 ]
 
 [project.optional-dependencies]

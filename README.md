@@ -26,8 +26,10 @@ On first install, we should run the following commands:
 ```bash
 uv sync --all-extras
 pre-commit install
+brew install node@22
+brew install aws-cdk
+cdk bootstrap aws://233574659689/eu-west-2
 ```
-
 
 ## Modules
 
