@@ -85,7 +85,7 @@ jobs:
           uv sync --extra test --no-install-project
 
           echo "Installing Test PyPI aws-cdk-modules==$VERSION"
-          uv pip install --index-url https://test.pypi.org/simple/ aws-cdk-modules==$VERSION --system
+          uv pip install --index-url https://test.pypi.org/simple/ aws-cdk-modules==$VERSION --no-deps
 
       - name: Run PyTest
         run: |

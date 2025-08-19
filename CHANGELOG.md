@@ -12,6 +12,15 @@ That is, given a version number `MAJOR.MINOR.PATCH`, increment the:
 - **PATCH** version when you make backwards compatible bug fixes
 
 
+## [1.0.0.dev2](https://github.com/collier-p-charlie/python-repo-template/compare/1.0.0.dev1...1.0.0.dev2) 2025-08-19
+
+### Added
+- Adding automatic tagging when merging to `main` branch through **GitHub** _action_.
+
+### Amended
+- Fixing requirements issue.
+
+
 ## [1.0.0.dev1](https://github.com/collier-p-charlie/python-repo-template/compare/0.0.1...1.0.0.dev1) 2025-08-19
 
 ### Added
