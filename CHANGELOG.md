@@ -12,6 +12,12 @@ That is, given a version number `MAJOR.MINOR.PATCH`, increment the:
 - **PATCH** version when you make backwards compatible bug fixes
 
 
-## [0.0.1](https://github.com/collier-p-charlie/python-repo-template/compare/<tag1>...<tag2>) YYYY-mm-dd
+## [1.0.0.dev1](https://github.com/collier-p-charlie/python-repo-template/compare/0.0.1...1.0.0.dev1) 2025-08-19
+
+### Added
+- Added `BaseModule` and `NetworkModule` template classes.
+
+
+## [0.0.1](https://github.com/collier-p-charlie/python-repo-template/compare/<tag1>...<tag2>) 2025-08-19
 
 - Start of changelog.
