@@ -15,7 +15,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Framework :: Hatch"
 ]
-version = "0.0.1"  # https://packaging.python.org/en/latest/discussions/versioning/
+version = "1.0.0.dev1"  # https://packaging.python.org/en/latest/discussions/versioning/
 requires-python = ">=3.12"
 dependencies = [
     "aws-cdk-lib>=2.211.0",
@@ -44,7 +44,7 @@ docs = [
 main = "src.package_name.main:main"
 
 [project.urls]
-Documentation = ""
+Documentation = "https://collier-p-charlie.github.io/aws-cdk-modules"
 Repository = "https://github.com/collier-p-charlie/aws-cdk-modules"
 Issues = "https://github.com/collier-p-charlie/aws-cdk-modules/issues"
 Changelog = "https://github.com/collier-p-charlie/aws-cdk-modules/blob/main/CHANGELOG.md"
