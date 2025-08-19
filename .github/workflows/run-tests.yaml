@@ -84,8 +84,8 @@ jobs:
           echo "Installing test requirements"
           uv sync --extra test --extra cli --no-install-project
 
-          echo "Installing Test PyPI fsio==$VERSION"
-          uv pip install --index-url https://test.pypi.org/simple/ fsio==$VERSION --system
+          echo "Installing Test PyPI aws-cdk-modules==$VERSION"
+          uv pip install --index-url https://test.pypi.org/simple/ aws-cdk-modules==$VERSION --system
 
       - name: Run PyTest
         run: |
