@@ -82,7 +82,7 @@ jobs:
           VERSION=${{ steps.get-version.outputs.version }}
 
           echo "Installing test requirements"
-          uv sync --extra test --extra cli --no-install-project
+          uv sync --extra test --no-install-project
 
           echo "Installing Test PyPI aws-cdk-modules==$VERSION"
           uv pip install --index-url https://test.pypi.org/simple/ aws-cdk-modules==$VERSION --system
