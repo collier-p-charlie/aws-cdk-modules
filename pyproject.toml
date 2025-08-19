@@ -44,7 +44,7 @@ docs = [
 main = "src.package_name.main:main"
 
 [project.urls]
-Documentation = ""
+Documentation = "https://collier-p-charlie.github.io/aws-cdk-modules"
 Repository = "https://github.com/collier-p-charlie/aws-cdk-modules"
 Issues = "https://github.com/collier-p-charlie/aws-cdk-modules/issues"
 Changelog = "https://github.com/collier-p-charlie/aws-cdk-modules/blob/main/CHANGELOG.md"
